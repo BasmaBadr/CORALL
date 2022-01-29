@@ -1,0 +1,1 @@
+{"uuid":"292dbbfb-1130-49b3-aed9-119c3fc92d0e","name":"MakeTransaction","children":["97eb6839-efd9-426b-86de-be1c02b4bdda"],"befores":[{"name":"Class","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1643309302125,"stop":1643309302169}],"afters":[],"links":[],"start":1643309302060,"stop":1643309305730}
