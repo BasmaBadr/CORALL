@@ -39,8 +39,8 @@ public class LoginPage extends pagebase {
 
     @FindBy(xpath = "//button[@ng-click='transactions()']")
     WebElement Transaction;
-    @FindBy(xpath = "//strong[contains(text(),'1400')]")
-    WebElement Balance1400;
+    @FindBy(xpath = "//strong[contains(text(),'600')]")
+    WebElement Balance600;
 
     @FindBy(id = "accountSelect")
     WebElement account1011;
@@ -65,11 +65,10 @@ public class LoginPage extends pagebase {
         amount.sendKeys("400");
         clickbutton(Withdraw2);
     }
-    public void Transactionamount(String name){
-        Selectbyvisibletext(account1011,name);
-
-        //clickbutton(Transaction);
-    }
+//    public void Transactionamount(String name){
+//        Selectbyvisibletext(account1011,name);
+//
+//    }
 
 
 

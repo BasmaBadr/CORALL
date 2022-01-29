@@ -41,10 +41,10 @@ public class MakeTransaction extends TestBase {
         Assert.assertTrue(loginPage.Withdrawmessage.isDisplayed());
     }
     @Test(priority = 3)
-    public void ChecktranactionType(){
-//        loginPage.Transactionamount("1011");
-        System.out.println(loginPage.Balance1400.getText());
-        Assert.assertTrue(loginPage.Balance1400.isDisplayed());
+    public void Checktranactionamount(){
+
+        System.out.println(loginPage.Balance600.getText());
+        Assert.assertTrue(loginPage.Balance600.isDisplayed());
 
     }
 
